@@ -85,8 +85,8 @@ for i in range(200):
     
     
     deltaimage = image.grad.data
-    idx = abs(deltaimage) > 0.01
-    deltaimage = threshhold(deltaimage, idx, 0.01)
+    idx = abs(deltaimage) > 0.006
+    deltaimage = threshhold(deltaimage, idx, 0.006)
     
     
     image = image + deltaimage
