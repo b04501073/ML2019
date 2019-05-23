@@ -12,8 +12,8 @@ from keras.utils import get_file
 import os
 # K.set_learning_phase(1)
 
- f_file = sys.argv[1]
- path = sys.argv[2]
+f_file = sys.argv[1]
+path = sys.argv[2]
 #f_file = "train.csv"
 #path = "figs"
 datas = []
